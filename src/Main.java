@@ -6,21 +6,10 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int scale = sc.nextInt();
 		
-		char[] line0 = new char[3];
-		char[] line1 = new char[3];
-		char[] line2 = new char[3];
+		char[] line0 = {'*', 'x', '*'}; //initialization of an array can use this form.
+		char[] line1 = {' ', 'x', 'x'};
+		char[] line2 = {'*', ' ', '*'};
 		
-		line0[0] = '*';
-		line0[1] = 'x';
-		line0[2] = '*';
-		
-		line1[0] = ' ';
-		line1[1] = 'x';
-		line1[2] = 'x';
-		
-		line2[0] = '*';
-		line2[1] = ' ';
-		line2[2] = '*';
 		
 		String s0 = "";
 		for (int i=0;i<scale;i++) {
